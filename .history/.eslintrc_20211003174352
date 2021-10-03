@@ -1,0 +1,15 @@
+{
+  "extends": ["prettier", "react-app", "plugin:import/typescript", "plugin:import/warnings"],
+  "plugins": ["import", "prettier"],
+  "rules": {
+    "prettier/prettier": 1,
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "import/newline-after-import": [
+      1,
+      {
+        "count": 1
+      }
+    ], 
+  }
+}

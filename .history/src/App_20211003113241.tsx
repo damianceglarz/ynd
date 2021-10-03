@@ -1,0 +1,15 @@
+import { Provider } from "react-redux";
+import { UserSearch } from "./modules/UserSearch";
+import {ThemeProvider} from 'styled-components'
+import store from "./store/store";
+
+const App = () => {
+  return (
+    <Provider store={store}>
+      <ThemePro
+      <UserSearch />
+    </Provider>
+  );
+};
+
+export default App;
